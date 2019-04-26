@@ -1,94 +1,55 @@
 # Daily Diary Application
 
-Mini project exploring how databases work.
+Mini project exploring how databases work. This application has been made using the following user stories. 
+
+## User Stories
+
+### Must have
+As a user, I want to add a new diary entry, so I can keep a daily diary.
+
+As a user, I want each Diary entry to have a title, so I can locate my entry at a later date. 
+
+As a user, I want to see a list of diary entries, so I can browse my previous entries. 
+
+As a user, I want to click on a title to see my full diary entry, so that I can read my previous entries. 
+
+### Should have
+As a user, I want to be able to edit the diary entry, so that I can correct an error. 
+
+As a user, I want to be able to delete a diary entry, so that I can keep my diary tidy.
+
+As a user, I to be able to add a comment to a diary entry, so that I can reflect on a previous diary entry.
+
+As a user, I want to see associated comments when viewing a diary entry, so that I can see my past reflections. 
+
+### Could have
+
+As a user, I want to be able to add Tags to an entry, so that I can make entries easier to browse. 
+
+As a user, I want to be able to filter diary entries by Tag, so that I can see different types of entry. 
+
+## Motivation 
+
+I have completed this project to further my understanding of how databases work and how they are integrated into a web application using Sinatra with Postgresql.
 
 ## Description
 
 I enjoy keeping a daily diary, and I want to store this online in my very own 'Daily Diary' application.
 
-As a busy coach I'm a bit short on time, so I've provided user stories below so you can build one for me. Your challenge is to build a 'Daily Diary' application that uses Sinatra together with a PostgreSQL to store diary entries, and has a browser-based user interface.
+## Screenshots
+take screen shots of code and progress
 
-I've included some extra functionality options, so the user requirements are split into 'Must have', 'Should have'  and 'Could have'.
+## Tech/framework used
+Sinatra
+Postgresql
 
-If you can think if any other cool features then feel free to add them 😃
+## Installation
+How to install the testing environment:
 
-To get feedback on your approach, please submit a Code Review Request by the end of the week.
+How to install the environment:
 
+How to set up the database table:
 
-## Additional Guidance
+## Tests
 
-- This mini project should be used to help you reflect on your learnings from this week.
-- You should remember to test-drive your development, and use the Object Oriented Design principles you have learnt so far.
-- Don't forget that your project will need a good README, including:
-  - instructions for setting up the databases, including table setup steps.
-  - instructions for how to run tests
-  - instructions for running the application
-  - overview of your approach and design
-
-## User Stories
-
-### Must Have
-
-```
-As a user
-So that I can keep a daily diary
-I want to be able to add a new Diary Entry
-```
-
-```
-As a user
-So that I can identify my entry in future
-I want to give each Diary Entry a title
-```
-
-```
-As a user
-So that I can browse my previous entries
-I want to see a list of Diary Entry Titles
-```
-
-```
-As a user
-So that I can read my previous entries
-I want to click on a title to see the full Diary Entry
-```
-
-### Should Have
-
-```
-As a user
-So that I can correct an error
-I want to be able to edit the Diary Entry
-```
-
-```
-As a user
-So that I can keep my diary tidy
-I want to be able to delete a Diary Entry
-```
-
-```
-As a user
-So that I can reflect on a previous diary entry
-I want to be able add a Comment to a Diary Entry
-```
-
-```
-As a user
-So that I can see my past reflections
-I want to see associated Comments when viewing a Diary Entry
-```
-
-### Could Have
-
-```
-As a user
-So that I can make entries easier to browse
-I want to be able to add Tags to an Entry
-```
-
-```
-As a user
-So that I can see different types of entry
-I want to be able to filter Diary Entries by Tag
-```
+### Overview of my approach and design
